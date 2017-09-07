@@ -5,30 +5,30 @@ import org.junit.Test;
 public class BasicOP {
 
 	/**
-	 * Î»ÒÆ²Ù×÷
+	 * ä½ç§»æ“ä½œ
 	 */
 	@Test
 	public void  weiyi(){
 		
-		//ÏòÓÒÎ»ÒÆ  
+		//å‘å³ä½ç§»  
 		int i = 30;
 		i = i >> 1;
-		System.out.println(i);//×îÖÕ½á¹ûÎª15
+		System.out.println(i);//æœ€ç»ˆç»“æœä¸º15
 		i = i >> 1;
-		System.out.println(i);//×îÖÕ½á¹ûÎª7
+		System.out.println(i);//æœ€ç»ˆç»“æœä¸º7
 		i = i>>1;
-		System.out.println(i);//×îÖÕ½á¹û3
+		System.out.println(i);//æœ€ç»ˆç»“æœ3
 		i = i>>1;
-		System.out.println(i);//×îÖÕ½á¹û1
-		//Ïò×óÎ»ÒÆ
+		System.out.println(i);//æœ€ç»ˆç»“æœ1
+		//å‘å·¦ä½ç§»
 		i = i<<1;
-		System.out.println(i);//×îÖÕ½á¹û2
+		System.out.println(i);//æœ€ç»ˆç»“æœ2
 		i = i<<1;
-		System.out.println(i);//×îÖÕ½á¹û4
+		System.out.println(i);//æœ€ç»ˆç»“æœ4
 		i = i<<1;
-		System.out.println(i);//×îÖÕ½á¹û8
+		System.out.println(i);//æœ€ç»ˆç»“æœ8
 		i = i<<1;
-		System.out.println(i);//×îÖÕ½á¹û16
+		System.out.println(i);//æœ€ç»ˆç»“æœ16
 		
 		int x = 1;
 		x = 1<<4;
@@ -39,7 +39,7 @@ public class BasicOP {
 	}
 	
 	/**
-	 * »ñµÃÊı¾İ¿âÀàÀàĞÍ
+	 * è·å¾—æ•°æ®åº“ç±»ç±»å‹
 	 */
 	@Test
 	public void getArrayCLass(){
@@ -48,7 +48,7 @@ public class BasicOP {
 	}
 	
 	/**
-	 * Êı×é²Ù×÷
+	 * æ•°ç»„æ“ä½œ
 	 */
 	@Test
 	public void arrayOp(){

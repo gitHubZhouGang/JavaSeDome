@@ -6,7 +6,7 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- * ²âÊÔÊµÏÖÁËRandomAccess±ê¼Ç½Ó¿ÚµÄËÙ¶È
+ * æµ‹è¯•å®ç°äº†RandomAccessæ ‡è®°æ¥å£çš„é€Ÿåº¦
  * 
  * @author Cloop
  *
@@ -22,15 +22,15 @@ public class RandomAccessDome {
 		for(int i=0;i<testA.size();i++){
 			testA.get(i);
 		}
-		System.out.println("ºÄÊ±1£º"+(new Date().getTime()-date1.getTime()));
+		System.out.println("è€—æ—¶1ï¼š"+(new Date().getTime()-date1.getTime()));
 		Date date2 = new Date();
 		for(Iterator i=testA.iterator(); i.hasNext();){
 			i.next();
 		}
-		System.out.println("ºÄÊ±1£º"+(new Date().getTime()-date2.getTime()));
+		System.out.println("è€—æ—¶1ï¼š"+(new Date().getTime()-date2.getTime()));
 		
 		/**
-		 * ÊµÑéÖ¤Ã÷  ÊµÏÖÁË±ê¼Ç½Ó¿ÚµÄÀàµÄ·ÃÎÊÄÚ´æËÙ¶È±ÈÃ»ÊµÏÖµÄ¿ì
+		 * å®éªŒè¯æ˜  å®ç°äº†æ ‡è®°æ¥å£çš„ç±»çš„è®¿é—®å†…å­˜é€Ÿåº¦æ¯”æ²¡å®ç°çš„å¿«
 		 */
 	}
 }

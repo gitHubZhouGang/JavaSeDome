@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import org.junit.Test;
 
 /**
- * ´ËÀàÖ÷ÒªÊÇÎªÁËÑ§Ï°LinkedList
+ * æ­¤ç±»ä¸»è¦æ˜¯ä¸ºäº†å­¦ä¹ LinkedList
  * 
  * @see LinkedList
  * @see LinkedList.Node
@@ -18,12 +18,12 @@ public class LinkedListDome {
 	public void initLinkedList(){
 		LinkedList<String> llist = new LinkedList<>();
 		/**
-		 * LinkedListµÄºËĞÄµãÔÚÓÚÆäÄÚÖÃÀà Node
+		 * LinkedListçš„æ ¸å¿ƒç‚¹åœ¨äºå…¶å†…ç½®ç±» Node
 		 * 	Node 
-		 * 	 1,·â×°ÁËµ±Ç°¶ÔÏóµÄÖµ
-		 *   2£¬Ìá¹©ÏÂÒ»¸öNode
-		 *   3£¬Ìá¹©ÁËÉÏÒ»¸öNode
-		 * ÒòÎªLinkedList µÄÊı¾İ½á¹¹ÎÊÌâ   ËùÒÔ²»½¨ÒéÖ±½ÓÊ¹ÓÃfor+get(index)·½Ê½½øĞĞµü´ú
+		 * 	 1,å°è£…äº†å½“å‰å¯¹è±¡çš„å€¼
+		 *   2ï¼Œæä¾›ä¸‹ä¸€ä¸ªNode
+		 *   3ï¼Œæä¾›äº†ä¸Šä¸€ä¸ªNode
+		 * å› ä¸ºLinkedList çš„æ•°æ®ç»“æ„é—®é¢˜   æ‰€ä»¥ä¸å»ºè®®ç›´æ¥ä½¿ç”¨for+get(index)æ–¹å¼è¿›è¡Œè¿­ä»£
 		 * 
 		 */
 	}

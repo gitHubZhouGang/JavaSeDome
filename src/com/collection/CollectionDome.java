@@ -21,18 +21,18 @@ public class CollectionDome {
 
 	public static void main(String[] args) {
 
-		// 集合框架顶级
+		// 闆嗗悎妗嗘灦椤剁骇
 		Collection myCollection = null;
 
 		// --List
 		List<String> myList = null;
 		ArrayList<String> myArrayList = new ArrayList<>();
 		// myArrayList.set(1, "a");
-		System.out.println("myArrayList 长度" + myArrayList.size());
+		System.out.println("myArrayList 闀垮害" + myArrayList.size());
 		Vector<String> myVector = null;
 		LinkedList<String> myLinkList = null;
 
-		// 集合框架Map
+		// 闆嗗悎妗嗘灦Map
 		Map<String, String> myMap = null;
 		Hashtable<String, String> myHashTable = null;
 		LinkedHashMap<String, String> myLinkedHashMap = null;

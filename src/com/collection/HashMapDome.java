@@ -6,7 +6,7 @@ import java.util.Map;
 import org.junit.Test;
 
 /**
- * Ö÷ÒªÓÃÀ´ÁË½âHashMapµÄÔ´Âë
+ * ä¸»è¦ç”¨æ¥äº†è§£HashMapçš„æºç 
  * @author Cloop
  *
  */
@@ -15,13 +15,13 @@ public class HashMapDome {
 	@Test
 	public void initHashMap(){
 		/**
-		 * ÔÚHashMap¶ÔÏóÊôĞÔ  ÇëÖ±½Ó¿´Ô´Âë
+		 * åœ¨HashMapå¯¹è±¡å±æ€§  è¯·ç›´æ¥çœ‹æºç 
 		 */
 		/**
-		 * HashMapÓĞËÄÖÖ¹¹Ôìº¯Êı   ·Ö±ğÎª¿Õ¹¹Ôì   ´ø³õÊ¼»¯initialCapacity¹¹Ôì   ´øinitialCapacityºÍloadFactor ´øMap¹¹Ôì
-		 *    1£¬¿Õ¹¹Ôìº¯Êı  ÔÚ´´½¨¶ÔÏóµÄÊ±ºòÖ»ÊÇÉèÖÃÁË loadFactor   
-		 *    2,´øinitialCapacity¹¹Ôìº¯Êı ±ØĞëĞ¡ÓÚ 1<<30²¢ÇÒ´óÓÚ»òµÈÓÚ0   Èç¹û³¬¹ıÁËÒ²»áÖ±½ÓÉèÖÃÎª×î´óÖµµÄÕâ¸öÊı
-		 *    ÎÒÃÇÖØµã¿´µÚËÄÖÖ´øMapµÄ¹¹Ôì 
+		 * HashMapæœ‰å››ç§æ„é€ å‡½æ•°   åˆ†åˆ«ä¸ºç©ºæ„é€    å¸¦åˆå§‹åŒ–initialCapacityæ„é€    å¸¦initialCapacityå’ŒloadFactor å¸¦Mapæ„é€ 
+		 *    1ï¼Œç©ºæ„é€ å‡½æ•°  åœ¨åˆ›å»ºå¯¹è±¡çš„æ—¶å€™åªæ˜¯è®¾ç½®äº† loadFactor   
+		 *    2,å¸¦initialCapacityæ„é€ å‡½æ•° å¿…é¡»å°äº 1<<30å¹¶ä¸”å¤§äºæˆ–ç­‰äº0   å¦‚æœè¶…è¿‡äº†ä¹Ÿä¼šç›´æ¥è®¾ç½®ä¸ºæœ€å¤§å€¼çš„è¿™ä¸ªæ•°
+		 *    æˆ‘ä»¬é‡ç‚¹çœ‹ç¬¬å››ç§å¸¦Mapçš„æ„é€  
 		 */
 		Map<String, String> map = new HashMap<>();
 		Map<String, String> map1 = new HashMap<>(111);
@@ -29,9 +29,9 @@ public class HashMapDome {
 		Map<String, String> map3 = new HashMap<>(map1);
 		
 		/**
-		 * Í¨¹ıÏÖÓĞµÄMapÔÙÈ¥´´ÔìĞÂµÄMap ÊÇÖ±½Ó°ÑÏÖÓĞµÄMapkey½øĞĞHash¼ÆËãÖ®ºó  °ÑÖµ·Åµ½ĞÂµÄMapÀïÃæÈ¥
-		 * 1£¬this.loadFactor = DEFAULT_LOAD_FACTOR;   ºÍÆäËûÒ»Ñù  ³õÊ¼»¯Ò»ÏÂloadFactor
-		 * 2£¬putMapEntries(m, false);
+		 * é€šè¿‡ç°æœ‰çš„Mapå†å»åˆ›é€ æ–°çš„Map æ˜¯ç›´æ¥æŠŠç°æœ‰çš„Mapkeyè¿›è¡ŒHashè®¡ç®—ä¹‹å  æŠŠå€¼æ”¾åˆ°æ–°çš„Mapé‡Œé¢å»
+		 * 1ï¼Œthis.loadFactor = DEFAULT_LOAD_FACTOR;   å’Œå…¶ä»–ä¸€æ ·  åˆå§‹åŒ–ä¸€ä¸‹loadFactor
+		 * 2ï¼ŒputMapEntries(m, false);
 		 */
 		
 	}

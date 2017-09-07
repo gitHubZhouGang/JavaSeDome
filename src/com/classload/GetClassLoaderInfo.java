@@ -6,18 +6,18 @@ import java.net.URLClassLoader;
 public class GetClassLoaderInfo {
 
 	public static void main(String[] args) {
-		System.out.println("BootstrapClassLoader µÄ¼ÓÔØÂ·¾¶: ");
+		System.out.println("BootstrapClassLoader çš„åŠ è½½è·¯å¾„: ");
 		
 		URL[] urls = sun.misc.Launcher.getBootstrapClassPath().getURLs();
 		for (URL url : urls)
 			System.out.println(url);
 		System.out.println("----------------------------");
 
-		// È¡µÃÀ©Õ¹Àà¼ÓÔØÆ÷
+		// å–å¾—æ‰©å±•ç±»åŠ è½½å™¨
 		URLClassLoader extClassLoader = (URLClassLoader) ClassLoader.getSystemClassLoader().getParent();
 
-		System.out.println("À©Õ¹Àà¼ÓÔØÆ÷£º" + extClassLoader);
-		System.out.println("À©Õ¹Àà¼ÓÔØÆ÷ µÄ¼ÓÔØÂ·¾¶: ");
+		System.out.println("æ‰©å±•ç±»åŠ è½½å™¨ï¼š" + extClassLoader);
+		System.out.println("æ‰©å±•ç±»åŠ è½½å™¨ çš„åŠ è½½è·¯å¾„: ");
 
 		urls = extClassLoader.getURLs();
 		for (URL url : urls)
@@ -25,11 +25,11 @@ public class GetClassLoaderInfo {
 
 		System.out.println("----------------------------");
 
-		// È¡µÃÓ¦ÓÃ(ÏµÍ³)Àà¼ÓÔØÆ÷
+		// å–å¾—åº”ç”¨(ç³»ç»Ÿ)ç±»åŠ è½½å™¨
 		URLClassLoader appClassLoader = (URLClassLoader) ClassLoader.getSystemClassLoader();
 
-		System.out.println("Ó¦ÓÃÀà¼ÓÔØÆ÷£º"+appClassLoader);
-		System.out.println("Ó¦ÓÃ(ÏµÍ³)Àà¼ÓÔØÆ÷ µÄ¼ÓÔØÂ·¾¶: ");
+		System.out.println("åº”ç”¨ç±»åŠ è½½å™¨ï¼š"+appClassLoader);
+		System.out.println("åº”ç”¨(ç³»ç»Ÿ)ç±»åŠ è½½å™¨ çš„åŠ è½½è·¯å¾„: ");
 
 		urls = appClassLoader.getURLs();
 		for (URL url : urls)

@@ -7,7 +7,7 @@ import java.util.Vector;
 import org.junit.Test;
 
 /**
- * ´ËÀàÖ÷ÒªÓÃÀ´Ñ§Ï°ArrayListµÄ½á¹¹
+ * æ­¤ç±»ä¸»è¦ç”¨æ¥å­¦ä¹ ArrayListçš„ç»“æ„
  * @author Cloop
  *
  */
@@ -19,23 +19,23 @@ import org.junit.Test;
 public class ArrayListDome {
 
 	/**
-	 * ArrayList Êµ¼ÊÉÏ¾ÍÊÇÒ»¸öÊı×é   µ±µ±Ç°Êı×ÖÈİÁ¿ÎŞ·¨ÈİÏÂÔªËØµÄÊ±ºò¾Í»á°´ÕÕ10Îª»ùÊıÀ©Õ¹
+	 * ArrayList å®é™…ä¸Šå°±æ˜¯ä¸€ä¸ªæ•°ç»„   å½“å½“å‰æ•°å­—å®¹é‡æ— æ³•å®¹ä¸‹å…ƒç´ çš„æ—¶å€™å°±ä¼šæŒ‰ç…§10ä¸ºåŸºæ•°æ‰©å±•
 	 */
 	@Test
 	public void  initArrayList(){
-		List<String> myArrayList = new ArrayList<>();//ÔÚ³õÊ¼»¯µÄÊ±ºò  Èç¹û²»Ö¸¶¨³¤¶È ÖµÖ±½Ó°Ñ elementData = DEFAULTCAPACITY_EMPTY_ELEMENTDATA
+		List<String> myArrayList = new ArrayList<>();//åœ¨åˆå§‹åŒ–çš„æ—¶å€™  å¦‚æœä¸æŒ‡å®šé•¿åº¦ å€¼ç›´æ¥æŠŠ elementData = DEFAULTCAPACITY_EMPTY_ELEMENTDATA
 		
 		/**
-		 * ÔÚ”µ½MÔö¼ÓµÄ•rºò»ØÈ¥²Ù×÷ ensureCapacityInternal  ÓÃÀ´ÅĞ¶Ïµ±Ç°elementDataµÄ³¤¶È£¬Èç¹û³¤¶È²»×ãÔòÍ¨¹ı Arrays.copyOf(elementData, newCapacity);À´Ìæ»»Ô­À´µÄelementData
+		 * åœ¨æ•¸çµ„å¢åŠ çš„æ™‚å€™å›å»æ“ä½œ ensureCapacityInternal  ç”¨æ¥åˆ¤æ–­å½“å‰elementDataçš„é•¿åº¦ï¼Œå¦‚æœé•¿åº¦ä¸è¶³åˆ™é€šè¿‡ Arrays.copyOf(elementData, newCapacity);æ¥æ›¿æ¢åŸæ¥çš„elementData
 		 *    Arrays.copyOf  
-		 *       1£¬ÖĞÍ¨¹ıµ÷ÓÃArray.newInstance(newType.getComponentType(), newLength);ĞÂ½¨Êı×é
-		 *       2£¬System.arraycopy(original, 0, copy, 0,Math.min(original.length, newLength)); °ÑÔ­À´Êı×éµÄÔªËØÒıÓÃ·Åµ½ĞÂÊı×éÖĞ
+		 *       1ï¼Œä¸­é€šè¿‡è°ƒç”¨Array.newInstance(newType.getComponentType(), newLength);æ–°å»ºæ•°ç»„
+		 *       2ï¼ŒSystem.arraycopy(original, 0, copy, 0,Math.min(original.length, newLength)); æŠŠåŸæ¥æ•°ç»„çš„å…ƒç´ å¼•ç”¨æ”¾åˆ°æ–°æ•°ç»„ä¸­
 		 *       
-		 *       System.arraycopy  ÊÇÒ»¸ö navtive·½·¨£¬ËùÒÔ²»ÊÇjavaÊµÏÖµÄ  ¶øÊÇÍ¨¹ıµÚÈı·½ÓïÑÔ  cÀ´ÊµÏÖ¶ÔÄÚ´æµÄÖ±½Ó²Ù×÷
+		 *       System.arraycopy  æ˜¯ä¸€ä¸ª navtiveæ–¹æ³•ï¼Œæ‰€ä»¥ä¸æ˜¯javaå®ç°çš„  è€Œæ˜¯é€šè¿‡ç¬¬ä¸‰æ–¹è¯­è¨€  cæ¥å®ç°å¯¹å†…å­˜çš„ç›´æ¥æ“ä½œ
 		 */
 		
 		/**
-		 * ×¢ÒâArrayList µÄ²Ù×÷ÊÇ·ÇÏß³Ì°²È«µÄ£¬ÒªÏëÊµÏÖÏÈÏß³Ì°²È«   »¹ÊÇÊ¹ÓÃVector
+		 * æ³¨æ„ArrayList çš„æ“ä½œæ˜¯éçº¿ç¨‹å®‰å…¨çš„ï¼Œè¦æƒ³å®ç°å…ˆçº¿ç¨‹å®‰å…¨   è¿˜æ˜¯ä½¿ç”¨Vector
 		 */
 	}
 }
