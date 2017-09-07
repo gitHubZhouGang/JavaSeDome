@@ -37,5 +37,7 @@ public class ArrayListDome {
 		/**
 		 * 注意ArrayList 的操作是非线程安全的，要想实现先线程安全   还是使用Vector
 		 */
+		int t= 15;
+		System.out.println(t+=t-=t*=t);
 	}
 }
