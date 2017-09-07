@@ -13,6 +13,10 @@ import org.junit.Test;
  */
 public class HashMapDome {
 
+	/**
+	 * HashMap 主要说的是一个Hash表
+	 * 	
+	 */
 	@Test
 	public void initHashMap() {
 		/**
