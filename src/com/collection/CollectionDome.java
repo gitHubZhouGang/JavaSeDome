@@ -34,9 +34,9 @@ public class CollectionDome {
 
 		// 集合框架Map
 		Map<String, String> myMap = null;
+		HashMap<String, String> myHashMap = null;
 		Hashtable<String, String> myHashTable = null;
 		LinkedHashMap<String, String> myLinkedHashMap = null;
-		HashMap<String, String> myHashMap = null;
 		TreeMap<String, String> myTreeMap = null;
 
 		// --Set
