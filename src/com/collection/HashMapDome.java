@@ -14,6 +14,18 @@ import org.junit.Test;
 public class HashMapDome {
 
 	@Test
+	public void getHashCode(){
+		/**
+		 * String 的Hashcode是通过
+		 */
+		String key = "a";
+		System.out.println(key.hashCode());
+		
+		Integer a = 1000;
+		System.out.println(a.hashCode());
+	}
+	
+	@Test
 	public void initHashMap() {
 		/**
 		 * 在HashMap对象属性 请直接看源码
@@ -34,6 +46,15 @@ public class HashMapDome {
 		 * 1，this.loadFactor = DEFAULT_LOAD_FACTOR; 和其他一样 初始化一下loadFactor
 		 * 2，putMapEntries(m, false);
 		 */
+		
+		/**
+		 * HashMap的put(K key, V value)方法
+		 * 	1,调用 putVal()方法  传入 putVal(hash(key), key, value, false, true);
+		 *  2,hash(key)
+		 */
+		
+		
 
 	}
+	
 }
