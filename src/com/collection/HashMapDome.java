@@ -8,6 +8,8 @@ import org.junit.Test;
 /**
  * 主要用来了解HashMap的源码
  * 
+ * HashMap 其实内存结构是按照数组链条结构来设计的
+ *         当key的Hash没有在当前数组占用的时候就会直接放到当前数组,   如果出现占用则指定next;
  * @author Cloop
  *
  */
@@ -55,8 +57,8 @@ public class HashMapDome {
 		 * HashMap的put(K key, V value)方法
 		 * 	1,调用 putVal()方法  传入 putVal(hash(key), key, value, false, true);
 		 *  2,hash(key)
+		 *  3, @see HashMap#resize() 初始化默认数组 Node<K,V>[] table
 		 */
-		
 		
 
 	}
