@@ -19,4 +19,5 @@ public class MyProxyClass1 implements IMyProxy{
 		System.out.println(this.getClass()+"说了:"+content);
 	}
 
+
 }
