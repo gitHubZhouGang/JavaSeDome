@@ -50,7 +50,7 @@ public class IOClass {
 			/**
 			 * I 输入操作流
 			 */
-			fileIn = new FileInputStream("");// 文件操作输入流
+			fileIn = new FileInputStream("");// 文件操作输入流  先去做文件权限检查 SecurityManager.checkRead(name);
 			objectIn = new ObjectInputStream(fileIn);// 对象操作输入流
 			pipedIn = new PipedInputStream();// 管道操作输入流 它必须和PipedOutputStream一同建立一个管道然后单独使用
 			byteIn = new ByteArrayInputStream(new byte[10]);// 字节数组操作输入流
@@ -58,7 +58,7 @@ public class IOClass {
 			/**
 			 * O 输出操作流
 			 */
-			fileOut = new FileOutputStream("");// 文件输出操作流
+			fileOut = new FileOutputStream("");// 文件输出操作流 先去做文件权限检查 SecurityManager.checkWrite(obj);
 			objectOut = new ObjectOutputStream(fileOut);// 对象输出操作流
 			pipedOut = new PipedOutputStream();// 管道输出操作流
 			byteOut = new ByteArrayOutputStream();// 字节数组输出操作流
